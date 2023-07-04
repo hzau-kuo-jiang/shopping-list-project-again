@@ -28,7 +28,8 @@ header h1 {
 	margin-left: 10px;
 }
 
-.edit-mode {
+.form-control .edit-mode {
+	background-color: #6e8456;
 	color: #cccccc;
 }
 
@@ -121,6 +122,10 @@ header h1 {
 	margin: 0 5px 20px;
 	padding: 10px 15px;
 	width: 45%;
+}
+
+.items .edit-mode {
+	color: #cccccc;
 }
 
 @media (max-width: 500px) {
